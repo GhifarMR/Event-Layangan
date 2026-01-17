@@ -35,7 +35,7 @@ const Navbar = () => {
 
         {/* Button Desktop */}
         <button className="hidden md:block border-2 border-white rounded-xl px-4 py-2 text-xl font-bold bg-white text-blue-800 cursor-pointer">
-          Buy Ticket
+          Apply Now
         </button>
 
         {/* Hamburger */}
@@ -65,7 +65,7 @@ const Navbar = () => {
           ))}
 
           <button className="mt-4 border-2 border-white rounded-xl py-2 font-bold bg-white text-blue-800">
-            Buy Ticket
+            Apply Now
           </button>
         </div>
       )}
