@@ -4,7 +4,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur-2xl bg-blue-950/90">
+    <nav className="sticky top-0 z-50 backdrop-blur-2xl bg-blue-950">
       <div className="flex items-center justify-between px-4 py-3 md:px-8">
 
         {/* Logo */}
