@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="px-5 py-20 md:h-screen">
+    <section className="px-5 md:h-screen">
       <h1 className="text-3xl md:text-4xl font-bold mb-15 flex justify-center">
         About KiTE
       </h1>
@@ -10,11 +10,11 @@ const About = () => {
           <img
             src="https://images.unsplash.com/flagged/photo-1583603275310-33d386c7298a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="kite about us"
-            className="rounded-2xl md:max-w-2xl "
+            className="rounded-2xl md:max-w-2xl hover:scale-105 transition duration-300 mb-10"
           />
         </div>
 
-        <div className="max-w-2xl ">
+        <div className="max-w-2xl">
           <p className="text-base md:text-xl leading-relaxed">
             KiTE is a design competition event that focuses on creativity and
             innovation in kite design. The event provides a platform for
